@@ -1,5 +1,5 @@
 :root {
-    --cor-de-fundo: #753131;
+    --cor-de-fundo: #c90303;
 }
 
 body {
@@ -9,4 +9,12 @@ body {
 h1 {
     background-color: white;
 }
-<head>
+
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
