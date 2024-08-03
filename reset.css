@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -61,12 +60,7 @@ caption,
 tbody,
 tfoot,
 thead,
-tr,<head>
-<meta charset="UTF-8">
-<meta name="________" content="_______=device-width, ________=_______">
-<title>AluraBooks</title>
-</head><head>
-
+tr,
 th,
 td,
 article,
@@ -76,16 +70,18 @@ details,
 embed,
 figure,
 figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
+.cabecalho {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+}
+…time,
 mark,
 audio,
 video {
@@ -96,8 +92,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -111,30 +105,41 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
   content: '';
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.cabecalho {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+}
+
