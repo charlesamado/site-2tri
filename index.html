@@ -1,66 +1,82 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>AluraBooks</title>
-            <link rel="stylesheet" href="reset.css">
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <header class="cabeçalho">
-                <div class="container">
-                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-                    <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
-                </div>
-                <div class="container">
-                    <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-                    <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                    <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
-                </div>
-                </header
-                thead,
-                tr,
-                th,
-                td,
-                article,
-                aside,
-                canvas,
-                details,>
-        </body>
-    </html>
-     
-
-
-</label>
-<ul class="lista-menu">
-  <li class="lista-menu_titulo">Categorias</li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Programação</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Front-end</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Infraestrutura</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Business</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Design & UX</a>
-  </li>
-</ul>
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraBooks</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fábrica de Carros - AutoTech</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+  <header>
+    <div class="container">
+      <h1>AutoTech - Fábrica de Carros</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#models">Modelos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Bem-vindo à AutoTech!</h2>
+      <p>Desenvolvemos carros com tecnologia de ponta e inovação.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Com mais de 20 anos de experiência, a AutoTech é líder na fabricação de veículos que combinam desempenho, segurança e conforto. Nossa missão é transformar a experiência de dirigir com tecnologias inovadoras e um compromisso com a sustentabilidade.</p>
+    </div>
+  </section>
+
+  <section id="models" class="models">
+    <div class="container">
+      <h2>Nossos Modelos</h2>
+      <div class="model">
+        <h3>Modelo A</h3>
+        <p>Um carro esportivo de alta performance com design arrojado.</p>
+      </div>
+      <div class="model">
+        <h3>Modelo B</h3>
+        <p>Um SUV espaçoso e confortável, ideal para aventuras em família.</p>
+      </div>
+      <div class="model">
+        <h3>Modelo C</h3>
+        <p>Um carro compacto e econômico, perfeito para o dia a dia urbano.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contato</h2>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 AutoTech. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
